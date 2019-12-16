@@ -40,15 +40,30 @@
 }
 
 img{
-float: ;
+    float: ;}
 
-
+.slideshow-container {
+  max-width: 1920px;
+  position: relative;
+  margin: auto;
 }
 
 
 
-.mySlides {
-    width: 85%;
-    position: center;
+
+
     
+ 
+    
+    
+
+
+
+
+
+
+.mySlides{
+    width: 100%;
+    position: center;
+    display: none;
 }
