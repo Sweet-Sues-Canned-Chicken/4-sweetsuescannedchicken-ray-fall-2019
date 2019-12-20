@@ -64,6 +64,18 @@ img{
 
 .mySlides{
     width: 100%;
-    position: center;
+   
     display: none;
 }
+
+
+
+.button{
+    color: white;
+    
+}
+
+.button:hover{
+    color: red;
+}
+
