@@ -79,3 +79,33 @@ img{
     color: red;
 }
 
+.topnav {
+    display: block;
+}
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.topnav li{
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+    .topnav li {
+        float: none;
+    }
+}
